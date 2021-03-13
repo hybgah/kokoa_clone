@@ -1,7 +1,7 @@
-/* variable*/
+/*Variable*/
 @import "variables.css";
-/* Components*/
-@import "components/friendsdisplay.css";
+/*Components*/
+@import "components/friends.css";
 @import "components/nav-bar.css";
 @import "components/profile.css";
 @import "components/screen-header.css";
@@ -9,3 +9,11 @@
 /*Screens*/
 @import "screens/friends.css";
 @import "screens/login.css";
+
+ul {
+    list-style-type: none;
+}
+
+body{
+    height: 300vh;
+}
